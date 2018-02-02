@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="./css/typography.css" rel="stylesheet">
+  <link href="./css/zachs_stylesheet.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title> Zach Chaco | About Me </title>
+
+</head>
+
+<body>
+  <!--Navbar-->
+  <header>
+    <h1 class="logo">Zach Chaco </h1>
+    <span class="logo-line">|</span>
+    <h1 class="logo">Game Producer</h1>
+    <div>
+      <input type="checkbox" class="nav-check" id="nav-check">
+        <label for="nav-check">
+          <div class="nav-icon" onclick="animate_nav_icon(this)">
+            <div class="nav-icon-bar1"></div>
+            <div class="nav-icon-bar2"></div>
+            <div class="nav-icon-bar3"></div>
+          </div>
+        </label>
+      </input>
+    </div>
+  <div class="navigation-container">
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a class="font-light" href="index.html">Projects</a>
+          </li>
+          <li class="active">
+            <a class="font-light" href="about.html">About/Contact</a>
+          </li>
+
+          <li>
+            <a class="font-light" href="assets/Zach_Chaco_Resume.pdf">Resume</a>
+          </li>
+        </ul>
+        <div class="social-media">
+          <ul>
+            <li><a href="http://www.twitter.com/zchaco"><i class="fa fa-twitter" style="font-size:24px"></i></a></li>
+            <li><a href="http://www.linkedin.com/in/zach-chaco"><i class="fa fa-linkedin" style="font-size:24px"></i></a></li>
+            <li><a href="http://www.facebook.com/zach.chaco"><i class="fa fa-facebook" style="font-size:24px"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+<!--end navbar-->
+  <main role="main" class="container">
+      <div class="page">
+        <div class= "aboutme">
+          <h1 class="cover-heading"> Hello!</h1>
+            <p class="font-heavy">
+              I'm a Video Game Producer and Sock Collector.
+              </br>
+                As a Producer, I handle:
+              </br>
+              <ul class="task-list">
+                <li>project management</li>
+                <li>scheduling sprints</li>
+                <li>communicating between departments</li>
+                <li>avoiding crunch</li>
+              </ul>
+              </br>
+                If your team needs someone to handle any of that, contact me!
+              </br>
+              </br>
+              <p class="bold">
+                Email: zjchaco12@gmail.com
+                </br>
+                Currently:Seeking Work
+              </p>
+            </p>
+          </div>
+        </div>
+      </main>
+    <footer>
+      Thank you for visiting!
+    </footer>
+
+<script>
+  function toggle_nav_open(){
+    var main_navigation = document.getElementsByClassName('main-navigation')[0];
+    main_navigation.classList.toggle("open");
+  }
+
+  function animate_nav_icon(nav_icon){
+    nav_icon.classList.toggle("change");
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+/*Typography*/
+h1{
+    font-size:2.5rem;
+}
+
+h2{
+  font-size:2rem;
+}
+
+h3{
+  font-size:1.375rem;
+}
+
+h4{
+  font-size:1.125rem;
+}
+
+h5{
+  font-size:1rem;
+}
+
+h6{
+  font-size:0.875rem;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.font-light{
+  font-weight:200;
+}
+
+.font-regular{
+  font-weight:400;
+}
+
+.font-heavy{
+  font-weight:700;
+
+}

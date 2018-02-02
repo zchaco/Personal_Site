@@ -4,49 +4,122 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <title> Zach Chaco </title>
+  <link href="./css/zachs_stylesheet.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title> Zach Chaco | Projects </title>
+
 </head>
 
 <body>
   <!--Navbar-->
-  <nav class="navbar navbar-expand-md navbar-light fixed top bg-light">
-    <a class="navbar-brand" href="#">Zach Chaco</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+  <header>
+    <h1 class="logo">Zach Chaco | Game Producer</h1>
+    <div>
+      <input type="checkbox" class="nav-check" id="nav-check">
+        <label for="nav-check">
+          <div class="nav-icon" onclick="animate_nav_icon(this)">
+            <div class="nav-icon-bar1"></div>
+            <div class="nav-icon-bar2"></div>
+            <div class="nav-icon-bar3"></div>
+          </div>
+        </label>
+      </input>
+    </div>
+    <div class="navigation-container">
+      <nav class="main-navigation">
+        <ul>
+          <li class="active">
+            <a class="font-light" href="index.html">Projects</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
+          <li c>
+            <a class="font-light" href="about.html">About/Contact</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="assets/resume.pdf">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+
+          <li >
+            <a class="font-light" href="assets/resume.pdf">Resume</a>
           </li>
         </ul>
-      </div>
-    </nav>
+        <div class="social-media">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://www.twitter.com/zchaco"><i class="fa fa-twitter" style="font-size:24px"></i></a></li>
+            <li><a href="http://www.linkedin.com/in/zach-chaco"><i class="fa fa-linkedin" style="font-size:24px"></i></a></li>
+            <li><a href="http://www.facebook.com/zach.chaco"><i class="fa fa-facebook" style="font-size:24px"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
 <!--end navbar-->
+<!--projects-->
+  <div class="site-container">
+    <div class="site-content">
+      <main>
+        <div class="page">
+          <div class="box-container">
+            <div class="box">
+              <div class="image-container">
+                <div class="highlight">
+                  <a href="https://www.youtube.com/watch?v=5A3QpT3JYyM">
+                    <img class="game-image " src="./assets/images/skyshot.png" alt="Skyshot"></img>
+                  </a>
+                </div>
+              </div>
+              <div class="content-container">
+                  <h3 class="game-title font-heavy">Skyshot | First Person Multiplayer Sport | PC </h3>
+                  <p>
+                    Producer, Lead QA
+                  </p>
+              </div>
+            </div>
 
-<!--Content-->
+            <div class="box">
+              <div class="image-container">
+                <div class="highlight">
+                    <img class="game-image" src="./assets/images/yott.png" alt="Year of the Tiger"></img>
+                </div>
+              </div>
+              <div class="content-container">
+                <h3 class="game-title font-heavy">Year of the Tiger | 2D Fighter | PC & MAC </h3>
+                <p>
+                  Producer, 2D Artist, Engineering Lead
+                </p>
+              </div>
+            </div>
 
 
+          </div>
+        </div>
+        <!--goto top button-->
+        <div class="goto-top-container">
+          <a href="javascript:" id="return-to-top">Back to Top</a>
+        </div>
+        <footer>
+          Thank you for visiting!
+        </footer>
+      </main>
+    </div>
+  </div>
 
-<!----------->
-<!--Bootstrap core Javascript-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.hs"><\/script>')</script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-<!--IE10 viewport hack for surface/desktop windows 8 bug -->
-<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<script>
+  function toggle_nav_open(){
+    var main_navigation = document.getElementsByClassName('main-navigation')[0];
+    main_navigation.classList.toggle("open");
+  }
+
+  function animate_nav_icon(nav_icon){
+    nav_icon.classList.toggle("change");
+  }
+
+  var top_button = document.getElementById('return-to-top');
+  top_button.addEventListener("click",function(){      // When arrow is clicked
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  });
+</script>
+
+</body>
+</html>

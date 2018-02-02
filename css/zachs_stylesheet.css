@@ -1,0 +1,206 @@
+/*Globals*/
+html,
+body{
+  height:100%;
+  min-height: 100%;
+  margin: 0;
+
+}
+
+*{
+  font-family: 'Saira Condensed', sans-serif;
+  color:#7B7B7B;
+}
+
+header{
+  background-color:#01D9FE;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 1.5vh;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover,i:hover{
+  color:#FD2241;
+  font-weight: bold;
+}
+
+html,body,a,nav,ul,h1,footer,p, section{
+  margin:0;
+  padding:0;
+}
+
+footer{
+  text-align:center;
+  clear:both;
+  display: block;
+  padding:30px 0 30px 0;
+  bottom: 0;
+  width:100%;
+  background-color: #FEF4D6
+}
+
+nav li{
+  list-style: none;
+  display:inline;
+  margin:10px;
+}
+
+p{
+  font-size:1.125rem;
+  font-weight:200;
+  line-height:1.8;
+  text-align: left;
+}
+
+/*End of Globals*/
+.logo{
+  color:#FD2241;
+  display: inline;
+  font-size:10vh;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px #FFFFFF, 3px 3px #000000;
+}
+
+.logo-line{
+  color:#FFFFFF;
+  font-size:10vh;
+}
+
+.page{
+  background: linear-gradient(to bottom, #01D9FE, #FFFFFF);
+  height:40vw;
+}
+.active{
+  text-decoration: underline;
+}
+
+.box-container{
+  padding: 0;
+  margin:0;
+  text-align:center;
+  display: inline-block;
+}
+.box{
+  padding:2px;
+  margin: 20px;
+  width:35%;
+  display:inline-block;
+}
+
+.image-container{
+  border-radius: 35px;
+  background-color: red;
+}
+
+.highlight{
+  border-radius:35px;
+  height:100%;
+  overflow:hidden;
+  display: table;
+}
+.highlight:hover{
+  opacity: 0.5;
+}
+
+.game-link{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.game-image{
+  max-width:100%;
+  max-height: 100%;
+  display: table;
+}
+
+.content-container{
+  height:30%;
+  width:100%;
+}
+
+.game-title{
+  display:block;
+  padding:0;
+  margin:0;
+  text-align:left;
+}
+
+.navigation-container{
+  padding:0;
+  margin: 0;
+}
+
+.nav-check{
+  display:none;
+}
+
+.social_media{
+  text-align:center;
+  padding:0;
+  margin: 0;
+}
+
+.goto-top-container{
+  width:100%;
+  text-align: center;
+  background: linear-gradient(to bottom, #FFFFFF, #FEF4D6);
+  display: block;
+  clear:both;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.aboutme{
+  font-size: 20px;
+  padding-left: 10vw;
+  padding-top: 5vh;
+}
+
+.task-list{
+  padding-left:2vw;
+}
+
+
+#top_button{
+  border-style: none;
+}
+
+/*Scroll To Top*/
+#return-to-top {
+    text-decoration: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+@media(max-width:700px){
+  .logo{
+    display: block;
+  }
+
+  .logo-line{
+    display: none;
+  }
+
+  .page{
+    display: inline-block;
+  }
+  .box{
+    width:100%;
+  }
+  .image-container,.game-link,.game-image{
+    width:85vw;
+  }
+
+}
