@@ -37,5 +37,8 @@ h6{
 
 .font-heavy{
   font-weight:700;
+}
 
+.align-center{
+  text-align:center;
 }
