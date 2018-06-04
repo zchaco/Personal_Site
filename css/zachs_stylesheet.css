@@ -13,7 +13,7 @@ body{
 }
 
 header{
-  background-color:#01D9FE;
+  background-color:#e0e0d1;
   text-align: center;
   font-size: 30px;
   padding-top: 1.5vh;
@@ -40,7 +40,7 @@ footer{
   padding:30px 0 30px 0;
   bottom: 0;
   width:100%;
-  background-color: #FEF4D6
+  background-color: ##e0e0d1
 }
 
 nav li{
@@ -63,7 +63,7 @@ p{
   font-size:10vh;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px #FFFFFF, 3px 3px #000000;
+  text-shadow: 3px 3px #000000;
 }
 
 .logo-line{
@@ -72,8 +72,9 @@ p{
 }
 
 .page{
-  background: linear-gradient(to bottom, #01D9FE, #FFFFFF);
-  height:40vw;
+  /*background: linear-gradient(to bottom, #ff751a, #FFFFFF);*/
+  background-color:#2d2929;
+  /*height:40vw;*/
 }
 .active{
   text-decoration: underline;
@@ -148,7 +149,7 @@ p{
 .goto-top-container{
   width:100%;
   text-align: center;
-  background: linear-gradient(to bottom, #FFFFFF, #FEF4D6);
+  background: linear-gradient(to bottom, #FFFFFF, #e0e0d1);
   display: block;
   clear:both;
   padding-top: 20px;
