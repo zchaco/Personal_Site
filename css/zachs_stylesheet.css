@@ -13,7 +13,7 @@ body{
 }
 
 header{
-  background-color:#e0e0d1;
+  background-color:#eaebed;
   text-align: center;
   font-size: 30px;
   padding-top: 1.5vh;
@@ -40,7 +40,7 @@ footer{
   padding:30px 0 30px 0;
   bottom: 0;
   width:100%;
-  background-color: ##e0e0d1
+  background-color: #ffffff
 }
 
 nav li{
@@ -58,12 +58,12 @@ p{
 
 /*End of Globals*/
 .logo{
-  color:#FD2241;
+  color:#f28a29;
   display: inline;
   font-size:10vh;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 3px 3px #000000;
+  text-shadow: 3px 3px #cee5e2;
 }
 
 .logo-line{
@@ -73,7 +73,7 @@ p{
 
 .page{
   /*background: linear-gradient(to bottom, #ff751a, #FFFFFF);*/
-  background-color:#2d2929;
+  background-color:#eaebed;
   /*height:40vw;*/
 }
 .active{
@@ -95,7 +95,7 @@ p{
 
 .image-container{
   border-radius: 35px;
-  background-color: #01D9FE
+  background-color: #eaebed
 }
 
 .highlight{
@@ -149,7 +149,7 @@ p{
 .goto-top-container{
   width:100%;
   text-align: center;
-  background: linear-gradient(to bottom, #FFFFFF, #e0e0d1);
+  background: linear-gradient(to bottom, #eaebed, #FFFFFF);
   display: block;
   clear:both;
   padding-top: 20px;
