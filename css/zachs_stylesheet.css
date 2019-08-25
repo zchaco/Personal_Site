@@ -13,7 +13,6 @@ body{
 }
 
 header{
-  background-color:#eaebed;
   text-align: center;
   font-size: 30px;
   padding-top: 1.5vh;
@@ -28,7 +27,7 @@ a:hover,i:hover{
   font-weight: bold;
 }
 
-html,body,a,nav,ul,h1,footer,p, section{
+html,body,a,nav,ul,h1,header,footer,p, section{
   margin:0;
   padding:0;
 }
@@ -40,7 +39,6 @@ footer{
   padding:30px 0 30px 0;
   bottom: 0;
   width:100%;
-  background-color: #ffffff
 }
 
 nav li{
@@ -57,6 +55,14 @@ p{
 }
 
 /*End of Globals*/
+
+.site-container{
+  /*background: linear-gradient(to bottom, #ff751a, #FFFFFF);*/
+  background-color: rgb(255, 253, 253)
+  /*height:40vw;*/
+}
+
+
 .logo{
   color:#f28a29;
   display: inline;
@@ -67,14 +73,8 @@ p{
 }
 
 .logo-line{
-  color:#FFFFFF;
+  color:rgb(0, 0, 0);
   font-size:10vh;
-}
-
-.page{
-  /*background: linear-gradient(to bottom, #ff751a, #FFFFFF);*/
-  background-color:#eaebed;
-  /*height:40vw;*/
 }
 .active{
   text-decoration: underline;
@@ -104,6 +104,7 @@ p{
   overflow:hidden;
   display: table;
 }
+
 .highlight:hover{
   opacity: 0.5;
 }
@@ -117,11 +118,6 @@ p{
   max-width:100%;
   max-height: 100%;
   display: table;
-}
-
-.content-container{
-  height:30%;
-  width:100%;
 }
 
 .game-title{
@@ -149,11 +145,9 @@ p{
 .goto-top-container{
   width:100%;
   text-align: center;
-  background: linear-gradient(to bottom, #eaebed, #FFFFFF);
   display: block;
   clear:both;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 5 5 0 0;
 }
 
 .aboutme{
@@ -174,15 +168,10 @@ p{
 /*Scroll To Top*/
 #return-to-top {
     text-decoration: none;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
 }
 
 #return-to-top:hover {
-    background: rgba(0, 0, 0, 0.9);
+    text-decoration: underline;
 }
 
 @media(max-width:700px){

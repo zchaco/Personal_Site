@@ -18,7 +18,7 @@
   <header>
     <h1 class="logo">Zach Chaco </h1>
     <span class="logo-line">|</span>
-    <h1 class="logo">Game Developer</h1>
+    <h1 class="logo">Game Producer & Developer</h1>
     <div>
       <input type="checkbox" class="nav-check" id="nav-check">
         <label for="nav-check">
@@ -33,12 +33,15 @@
     <div class="navigation-container">
       <nav class="main-navigation">
         <ul>
-          <li class="active">
+          <li>
             <a class="font-light" href="index.html">Projects </a>
           </li>
           <li>
             <a class="font-light" href="about.html">About/Contact</a>
           </li>
+          <li>
+              <a class="font-light" href="#">Blog</a>
+            </li>
 
           <li >
             <a class="font-light" href="assets/Zach_Chaco_Resume.pdf">Resume</a>
@@ -60,85 +63,80 @@
   <div class="site-container">
     <div class="site-content">
       <main>
-        <div class="page">
-          <div class="box-container">
-            <div class="box">
-              <div class="image-container">
-                <div class="highlight">
-                  <a class="game-link" href="http://www.girlwhosees.com/">
-                    <img class="game-image" src="./assets/images/girlwhosees.png" alt="The Girl Who Sees"></img>
-                  </a>
-                </div>
-              </div>
-              <div class="content-container">
-                  <h3 class="game-title font-heavy">The Girl Who Sees | 2D Adventure Game | Unity5 PC & Browser </h3>
-                  <p>
-                    Gameplay Engineer, Team Operations, Distribution
-                  </p>
+        <div class="box-container">
+          <div class="box">
+            <div class="image-container">
+              <div class="highlight">
+                <a class="game-link" href="http://www.girlwhosees.com/">
+                  <img class="game-image" src="./assets/images/girlwhosees.png" alt="The Girl Who Sees"></img>
+                </a>
               </div>
             </div>
-
-            <div class="box">
-              <div class="image-container">
-                <div class="highlight">
-                  <a class="game-link" href="http://www.skyshotgame.com/">
-                    <img class="game-image" src="./assets/images/skyshot_logo.png" alt="Year of the Tiger"></img>
-                  </a>
-                </div>
-              </div>
-              <div class="content-container">
-                  <h3 class="game-title font-heavy">Skyshot | First Person Multiplayer Sport | Unreal Engine 4 - PC </h3>
-                  <p>
-                    Producer, Lead QA
-                  </p>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class="image-container">
-                <div class="highlight">
-                    <img class="game-image" src="./assets/images/yott_screenshot.png" alt="Year of the Tiger"></img>
-                </div>
-              </div>
-              <div class="content-container">
-                <h3 class="game-title font-heavy">Year of the Tiger | 2D Fighter | Unity4 PC & MAC </h3>
+            <div class="content-container">
+                <h3 class="game-title font-heavy">The Girl Who Sees | 2D Adventure Game | Unity5 PC & Browser </h3>
                 <p>
-                  Producer, 2D Artist, Engineering Lead
+                  Game Designer
                 </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image-container">
+              <div class="highlight">
+                <a class="game-link" href="http://www.skyshotgame.com/">
+                  <img class="game-image" src="./assets/images/skyshot_logo.png" alt="Year of the Tiger"></img>
+                </a>
               </div>
             </div>
+            <div class="content-container">
+                <h3 class="game-title font-heavy">Skyshot | First Person Multiplayer Sport | Unreal Engine 4 - PC </h3>
+                <p>
+                  Producer, Lead QA
+                </p>
+            </div>
+          </div>
 
-
+          <div class="box">
+            <div class="image-container">
+              <div class="highlight">
+                  <img class="game-image" src="./assets/images/yott_screenshot.png" alt="Year of the Tiger"></img>
+              </div>
+            </div>
+            <div class="content-container">
+              <h3 class="game-title font-heavy">Year of the Tiger | 2D Fighter | Unity4 PC & MAC </h3>
+              <p>
+                Producer, 2D Artist, Engineering Lead
+              </p>
+            </div>
           </div>
         </div>
         <!--goto top button-->
         <div class="goto-top-container">
           <a href="javascript:" id="return-to-top">Back to Top</a>
         </div>
-        <footer>
-          Thank you for visiting!
-        </footer>
       </main>
+      <footer>
+        Thank you for visiting!
+      </footer>
     </div>
   </div>
 
+  <script>
+    function toggle_nav_open(){
+      var main_navigation = document.getElementsByClassName('main-navigation')[0];
+      main_navigation.classList.toggle("open");
+    }
 
-<script>
-  function toggle_nav_open(){
-    var main_navigation = document.getElementsByClassName('main-navigation')[0];
-    main_navigation.classList.toggle("open");
-  }
+    function animate_nav_icon(nav_icon){
+      nav_icon.classList.toggle("change");
+    }
 
-  function animate_nav_icon(nav_icon){
-    nav_icon.classList.toggle("change");
-  }
-
-  var top_button = document.getElementById('return-to-top');
-  top_button.addEventListener("click",function(){      // When arrow is clicked
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  });
-</script>
+    var top_button = document.getElementById('return-to-top');
+    top_button.addEventListener("click",function(){      // When arrow is clicked
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    });
+  </script>
 
 </body>
 </html>
